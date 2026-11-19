@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'self'; img-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0B0B10">
+  <title>PixelTester · Teste de tela para Android e iPhone</title>
+  <meta name="description" content="PixelTester: verificação guiada da tela do celular (pixels mortos e presos, vazamento de luz, toque, multitoque e burn-in) com relatório em imagem ou PDF. Gratuito, sem anúncios, sem conta e sem coleta de dados.">
+  <link rel="icon" href="icon.png" type="image/png">
+  <link rel="alternate" hreflang="en" href="#en">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#pt">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./" aria-current="page"><img src="icon.png" alt="" width="32" height="32">PixelTester</a>
+      <nav class="nav" aria-label="Principal / Main">
+        <a href="#pt">Português</a>
+        <a href="#en" hreflang="en" lang="en">English</a>
+        <a href="privacidade.html">Privacidade</a>
+        <a href="privacy.html" hreflang="en" lang="en">Privacy</a>
+        <a href="https://github.com/leandro-as/pixeltester-site/issues">Suporte / Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <section class="hero lang-block" id="pt" lang="pt-BR">
+        <div class="hero-grid">
+          <div>
+            <div class="hero-title">
+              <img src="icon.png" alt="Ícone do PixelTester" width="72" height="72">
+              <h1>PixelTester</h1>
+            </div>
+            <p class="tagline">Teste a tela antes de comprar, vender ou depois do reparo</p>
+            <p>O PixelTester guia você por uma sequência de testes em tela cheia para achar pixels mortos ou presos, vazamento de luz, zonas que não respondem ao toque e burn-in OLED. Em cada teste você marca Passou ou Falhou e, no fim, compartilha um relatório em imagem ou PDF.</p>
+            <p>Gratuito, para Android e iPhone. Sem anúncios, sem compras, sem conta e sem coleta de dados. Funciona offline.</p>
+            <div class="stores">
+              <span class="button" aria-disabled="true">App Store <small>Em breve</small></span>
+              <span class="button" aria-disabled="true">Google Play <small>Em breve</small></span>
+            </div>
+          </div>
+          <div class="phone" role="img" aria-label="Ilustração do app: as 11 cores do teste de pixels, dois resultados e um código de verificação">
+            <div class="phone-head">Verificação concluída</div>
+            <div class="swatches" aria-hidden="true">
+              <span></span><span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="phone-result" aria-hidden="true">
+              <div class="pill">Pixels <b class="ok">Passou</b></div>
+              <div class="pill">Toque <b class="bad">Falhou</b></div>
+              <div class="code">047C-1CCB</div>
+            </div>
+          </div>
+        </div>
+
+        <h2>Como funciona</h2>
+        <ol class="steps">
+          <li>Toque em Iniciar verificação. O brilho vai ao máximo durante os testes e volta ao normal no fim.</li>
+          <li>Observe cada padrão em tela cheia e marque Passou ou Falhou, com uma nota se quiser.</li>
+          <li>Na tela Verificação concluída, compartilhe o relatório em imagem ou PDF.</li>
+        </ol>
+
+        <h2>O que ele testa</h2>
+        <ul class="features">
+          <li><h3>Pixels mortos e presos</h3><p>11 cores sólidas em tela cheia, de borda a borda.</p></li>
+          <li><h3>Vazamento de luz</h3><p>Tela preta no brilho máximo para achar luz escapando nas bordas de telas LCD.</p></li>
+          <li><h3>Toque e multitoque</h3><p>Pinte a grade inteira para achar zonas mortas e veja quantos dedos a tela detecta.</p></li>
+          <li><h3>Burn-in OLED</h3><p>Cinza uniforme com nível ajustável e bloco em movimento para revelar imagens fantasma.</p></li>
+          <li><h3>Testes extras</h3><p>Gradiente e banding, uniformidade em 9 zonas, nitidez com linhas de 1 pixel e brilho mínimo e máximo.</p></li>
+          <li><h3>Relatório em imagem e PDF</h3><p>Modelo, sistema, resolução, data, resultado de cada teste com as suas notas e um código de verificação.</p></li>
+          <li><h3>Histórico, antes e depois</h3><p>Compare duas verificações teste a teste: melhorou, piorou ou sem mudança.</p></li>
+          <li><h3>Reparo de pixel preso</h3><p>Pisca cores numa área que você posiciona, com timer. Sempre abre com aviso de fotossensibilidade.</p></li>
+          <li><h3>Informações do aparelho</h3><p>Resolução, densidade de pixels, taxa de atualização, brilho, HDR e tipo de tela.</p></li>
+        </ul>
+
+        <p class="note">O código de verificação é calculado no aparelho e muda se algum resultado, a data ou o aparelho for alterado. É uma conferência de integridade feita offline: não é certificado, não é laudo técnico e não é validado em nenhum servidor. O app também não detecta defeitos sozinho: quem observa e marca o resultado é você.</p>
+
+        <h2>Privacidade</h2>
+        <p>O PixelTester não coleta nem compartilha nenhum dado. O histórico fica só no seu aparelho e pode ser apagado a qualquer momento. No Android, o app nem pede permissão de internet. <a href="privacidade.html">Leia a política de privacidade</a>.</p>
+
+        <h2>Links</h2>
+        <ul class="links">
+          <li><a href="privacidade.html">Política de privacidade</a></li>
+          <li><a href="https://github.com/leandro-as/pixeltester-site/issues">Suporte (abra uma issue)</a></li>
+        </ul>
+      </section>
+
+      <section class="lang-block" id="en" lang="en">
+        <h2>PixelTester in English</h2>
+        <p class="tagline">Test the screen before you buy, sell, or after a repair</p>
+        <p>PixelTester guides you through a sequence of full-screen tests to find dead or stuck pixels, light bleed, areas that do not respond to touch and OLED burn-in. You mark each test as Passed or Failed and, at the end, share an image or PDF report.</p>
+        <p>Free, for Android and iPhone. No ads, no purchases, no account and no data collection. Works offline.</p>
+        <div class="stores">
+          <span class="button" aria-disabled="true">App Store <small>Coming soon</small></span>
+          <span class="button" aria-disabled="true">Google Play <small>Coming soon</small></span>
+        </div>
+
+        <ul class="features">
+          <li><h3>Dead and stuck pixels</h3><p>11 solid colors in full screen, edge to edge.</p></li>
+          <li><h3>Light bleed</h3><p>A black screen at full brightness to spot light escaping at the edges of LCD screens.</p></li>
+          <li><h3>Touch and multi-touch</h3><p>Paint the whole grid to find dead zones and see how many fingers the screen detects.</p></li>
+          <li><h3>OLED burn-in</h3><p>Uniform gray with an adjustable level and a moving block to reveal ghost images.</p></li>
+          <li><h3>Extra tests</h3><p>Gradient and banding, 9-zone uniformity, sharpness with 1-pixel lines, and minimum and maximum brightness.</p></li>
+          <li><h3>Image and PDF report</h3><p>Model, system, resolution, date, the result of every test with your notes, and a verification code.</p></li>
+          <li><h3>History, before and after</h3><p>Compare two checks test by test: improved, worsened or no change.</p></li>
+          <li><h3>Stuck pixel repair</h3><p>Flashes colors over an area you position, with a timer. Always opens with a photosensitivity warning.</p></li>
+          <li><h3>Device information</h3><p>Resolution, pixel density, refresh rate, brightness, HDR and screen type.</p></li>
+        </ul>
+
+        <p class="note">The verification code is calculated on the device and changes if any result, the date or the device is altered. It is an offline integrity check: it is not a certificate, not a technical appraisal, and it is not validated on any server. The app does not detect defects on its own either: you look and mark the result.</p>
+
+        <h2>Privacy</h2>
+        <p>PixelTester collects and shares no data. Your history stays on your device and can be deleted at any time. On Android, the app does not even request the internet permission. <a href="privacy.html">Read the privacy policy</a>.</p>
+
+        <h2>Links</h2>
+        <ul class="links">
+          <li><a href="privacy.html">Privacy policy</a></li>
+          <li><a href="https://github.com/leandro-as/pixeltester-site/issues">Support (open an issue)</a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© 2026 Leandro Almeida</span>
+      <span><a href="privacidade.html">Privacidade</a> · <a href="privacy.html" hreflang="en" lang="en">Privacy</a> · <a href="https://github.com/leandro-as/pixeltester-site/issues">Suporte / Support</a></span>
+    </div>
+  </footer>
+</body>
+</html>
